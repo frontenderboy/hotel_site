@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-header {
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 74px;
+}
+
+.logo img {
+    box-shadow: 0px 2px 11px #000;
+}
+
+ul.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+    padding: 0;
+}
+
+ul.menu-item li {
+    display: inline-block; /* Строчно-блочный элемент */
+    padding-left: 20px; /* Поля вокруг текста */
+    color:#957554;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.search {
+    position: absolute;
+    top: 185px;
+    right: 430px;
+}
+
+.choose-menu {
+    height: 117px;
+    background-color: black;
+}
+
+.rectangle-select-a-city {
+    position: absolute;
+    width: 192px;
+    height: 60px;
+    left: 318px;
+    top: 240px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 13px;
+}
+
+.select-a-city {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.5);
+    top: 20px;
+    left: 17px;
+}
+
+.vector {
+    position: absolute;
+    left: 156px;
+    right: 19px;
+    top: 24px;
+    bottom: 24px;
+}
+
+.rectangle-Check-In {
+    position: absolute;
+    width: 192px;
+    height: 60px;
+    left: 523px;
+    top: 240px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 13px;
+}
+
+.check-In {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.5);
+    top: 20px;
+    left: 17px;
+}
+
+.rectangle-Check-Out {
+    position: absolute;
+    width: 192px;
+    height: 60px;
+    left: 728px;
+    top: 240px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 13px;
+}
+
+.check-Out {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.5);
+    top: 20px;
+    left: 17px;
+}
+
+.calendar {
+    position: absolute;
+    left: 159px;
+    right: 13px;
+    top: 19px;
+    bottom: 21px;
+}
+
+.button {
+    position: absolute;
+    width: 202px;
+    height: 60px;
+    left: 936px;
+    top: 240px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    color: #fff;
+    transition: background-color .5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #c98d33;
+}
+
+.container-section {
+    position: relative;
+}
+
+.section-text-chapter {
+    position: absolute;
+    top: 323px;
+    right: 210px;
+    bottom: 202px;
+    left: 244px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.section-text-paragraph {
+    position: absolute;
+    top: 426px;
+    right: 493px;
+    bottom: 177px;
+    left: 474px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.main-action-button {
+    position: absolute;
+    width: 371px;
+    height: 76px;
+    top: 495px;
+    right: 535px;
+    bottom: 60px;
+    left: 535px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    transition: background-color .5s;
+}
+
+.main-action-button:hover {
+    cursor: pointer;
+    background: #c98d33;
+}
+
+.facilities-block {
+    position: absolute;
+    width: 1390px;
+    height: 289px;
+    left: 61px;
+    right: 61px;
+    top: 989px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.facilities-text {
+    font-size: 45px;
+    font-weight: 500;
+    color:#957554;
+    text-align: center;
+    margin-top: 42px;
+}
+
+.facilities-list img{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-right: 158px;
+}
+
+#kitchen {
+    margin-left: 215px;
+}
+
+.facilities-name {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-right: 172px;
+    margin-bottom: 46px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #957554;
+}
+
+#kitchen-name {
+    margin-left: 207px;
+    margin-right: 147px;
+}
+
+.blocks {
+    position: relative;
+}
+
+.rooms-and-rates-chapter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 186px;
+    font-size: 45px;
+    font-weight: 500;
+    color: #957554;
+}
+
+.room1 {
+    position: absolute;
+    margin: 53px 0px 58px 110px;
+}
+
+.room-text-1 {
+    position: absolute;
+    width: 381px;
+    height: 46px;
+    top: 360px;
+    left: 235px;
+    bottom: 153px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.btn-1 {
+    position: absolute;
+    width: 244px;
+    height: 76px;
+    top: 425px;
+    right: 192px;
+    bottom: 58px;
+    left: 304px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    border: none;
+    transition: background-color .5s;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    background: #c98d33;
+}
+
+.room2 {
+    position: absolute;
+    margin: 53px 100px 58px 800px;
+}
+
+.room-text-2 {
+    position: absolute;
+    width: 286px;
+    height: 46px;
+    top: 360px;
+    left: 970px;
+    bottom: 153px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.btn-2 {
+    position: absolute;
+    width: 244px;
+    height: 76px;
+    top: 425px;
+    right: 192px;
+    bottom: 58px;
+    left: 991px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    border: none;
+    transition: background-color .5s;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+    background: #c98d33;
+}
+
+.room3 {
+    position: absolute;
+    margin: 617px 0px 58px 110px;
+}
+
+.room-text-3 {
+    position: absolute;
+    width: 388px;
+    height: 46px;
+    top: 904px;
+    left: 231px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.btn-3 {
+    position: absolute;
+    width: 244px;
+    height: 76px;
+    top: 984px;
+    right: 192px;
+    bottom: 58px;
+    left: 304px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    border: none;
+    transition: background-color .5s;
+}
+
+.btn-3:hover {
+    cursor: pointer;
+    background: #c98d33;
+}
+
+.room4 {
+    position: absolute;
+    margin: 617px 100px 58px 800px;
+}
+
+.room-text-4 {
+    position: absolute;
+    width: 248px;
+    height: 46px;
+    top: 904px;
+    left: 987px;
+    bottom: 153px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.btn-4 {
+    position: absolute;
+    width: 244px;
+    height: 76px;
+    top: 984px;
+    right: 192px;
+    bottom: 58px;
+    left: 991px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    border: none;
+    transition: background-color .5s;
+}
+
+.btn-4:hover {
+    cursor: pointer;
+    background: #c98d33;
+}
+
+.book-now {
+    position: absolute;
+    width: 1319px;
+    height: 277px;
+    left: 61px;
+    top: 2550px;
+    background: #ffffff;
+}
+
+.book-now-text {
+    position: absolute;
+    margin-top: 114px;
+    left: 512px;
+    width: 411px;
+    height: 52px;
+    font-size: 45px;
+    font-weight: 500;
+    color: #957554;
+}
+
+.book-now-btn {
+    position: absolute;
+    width: 418px;
+    height: 76px;
+    left: 512px;
+    top: 204px;
+    background: #DFAA5B;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    transition: background-color .5s;
+}
+
+.book-now-btn:hover {
+    cursor: pointer;
+    background: #c98d33;
+}
+
+.container {
+    position: absolute;
+    width: 1518px;
+    height: 470px;
+    left: 1px;
+    top: 2951px;
+    background: #111111;
+}
+
+.footer-logo {
+    position: absolute;
+    top: 61px;
+    right: 1231px;
+    bottom: 282px;
+    left: 55px;
+}
+
+.info {
+    position: absolute;
+    width: 263px;
+    height: 83px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #ffffff;
+    top: 255px;
+    right: 1118px;
+    bottom: 131px;
+    left: 59px;
+}
+
+#phone {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#mail {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-menu {
+    position: absolute;
+    width: 194px;
+    height: 249px;
+    top: 61px;
+    right: 692px;
+    bottom: 159px;
+    left: 554px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.footer-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.placeholder-text {
+    position: absolute;
+    width: 268px;
+    height: 34px;
+    margin: 75px 173px 374px 999px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.input {
+    position: absolute;
+    width: 371px;
+    height: 75px;
+    margin: 129px 70px 279px 999px;
+    border-radius: 10px;
+    border: none;
+    background: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    color: #000000;
+    padding-left: 27px;
+}
+
+.placeholder-btn {
+    position: absolute;
+    width: 398px;
+    height: 75px;
+    margin: 237px 180px 204px 1001px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    background: #DFAA5B;
+    color: #ffffff;
+    transition: background-color .5s;
+}
+
+.placeholder-btn:hover {
+    cursor: pointer;
+    background: #c98d33;
+}
